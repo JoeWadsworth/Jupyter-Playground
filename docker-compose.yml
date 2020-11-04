@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  tf:
+    build: .
+    container_name: jupyter_play
+    volumes:
+      - ./notebooks:/tf/notebooks
+      - ./data:/tf/data
+      - ./models:/tf/models
+    ports:
+      - '8501:8888'
