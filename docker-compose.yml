@@ -9,4 +9,4 @@ services:
       - ./data:/tf/data
       - ./models:/tf/models
     ports:
-      - '8501:8888'
+      - '8888:8888'
