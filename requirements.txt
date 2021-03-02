@@ -4,3 +4,6 @@ pandas
 sklearn
 seaborn
 keras
+xgboost
+lightgbm
+opencv-python
